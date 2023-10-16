@@ -1,38 +1,55 @@
-.App {
-  text-align: center;
+/* RegistrationForm.css */
+
+.registration-form {
+  background-color: #333; /* Fondo oscuro */
+  color: #ff6b6b; /* Texto rosa */
+  font-weight: bold; /* Texto en negrita */
+  padding: 20px;
+  border-radius: 10px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.registration-form form {
+  font-weight: bold; /* Texto en negrita */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.registration-form .form-group {
+  margin-bottom: 30px; /* Más separación entre elementos */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.registration-form label {
+  color: #ffcc29; /* Texto naranja */
 }
 
-.App-link {
-  color: #61dafb;
+.registration-form .form-control {
+  border: 2px solid #ff6b6b; /* Borde rosa */
+  border-radius: 5px;
+  padding: 10px;
+  font-weight: bold; /* Texto en negrita */
+  background-color: #666; /* Fondo más oscuro */
+  color: #ff6b6b; /* Texto rosa */
+  transition: color 0.3s; /* Transición de color al escribir */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.registration-form .form-control:focus {
+  border-color: #ffcc29; /* Borde naranja al hacer foco */
+  box-shadow: none; /* Sin sombra al hacer foco */
 }
+
+.registration-form .form-control::placeholder {
+  color: #ffcc29; /* Color del marcador de posición */
+}
+
+.registration-form .form-control:focus::placeholder {
+  color: #ff6b6b; /* Color del marcador de posición al hacer foco */
+}
+
+.registration-form .btn-primary {
+  background-color: #ffcc29; /* Fondo naranja */
+  border: none;
+  font-weight: bold; /* Texto en negrita */
+}
+
+.registration-form .btn-primary:hover {
+  background-color: #ff6b6b; /* Fondo rosa al hacer hover */
+}
+

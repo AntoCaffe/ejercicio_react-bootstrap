@@ -1,13 +1,48 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* RegistrationForm.css */
+
+/* Estilo para el formulario */
+form {
+  background-color: #f3f3f3; /* Color de fondo del formulario */
+  padding: 20px;
+  border: 1px solid #ddd; /* Borde gris */
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Sombra ligera */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Estilo para las etiquetas */
+form label {
+  font-weight: bold; /* Texto en negrita */
+  margin-bottom: 8px; /* Separación inferior */
 }
+
+/* Estilo para los campos de entrada de texto */
+form input[type="text"],
+form input[type="email"],
+form input[type="password"] {
+  width: 100%; /* Ancho completo */
+  padding: 10px;
+  margin-bottom: 20px; /* Separación inferior */
+  border: 1px solid #ccc; /* Borde gris claro */
+  border-radius: 5px;
+}
+
+/* Estilo para los mensajes de error */
+span.error-message {
+  color: #ff6b6b; /* Texto en rojo */
+  font-weight: bold;
+}
+
+/* Estilo para el botón de registro */
+button[type="submit"] {
+  background-color: #ff6b6b; /* Fondo rojo */
+  color: white; /* Texto blanco */
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+button[type="submit"]:hover {
+  background-color: #ff4343; /* Fondo rojo más oscuro al hacer hover */
+}
+
