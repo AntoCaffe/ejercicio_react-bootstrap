@@ -1,5 +1,22 @@
 /* RegistrationForm.css */
-
+.App {
+  background-color: rgb(240, 178, 240);
+}
+.navbar {
+  background-size: 200px;
+  background-color: #cac5c5;
+  font-style:oblique;
+}
+.navbar-text{
+  color:#ec5252;
+  font: size 100px;;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+  font-size: 30px;
+  color: brown;
+  text-decoration-style: double;
+}
 .registration-form {
   background-color: #333; /* Fondo oscuro */
   color: #ff6b6b; /* Texto rosa */
@@ -10,10 +27,11 @@
 
 .registration-form form {
   font-weight: bold; /* Texto en negrita */
+  font-size: large;
 }
 
 .registration-form .form-group {
-  margin-bottom: 30px; /* Más separación entre elementos */
+  margin-bottom: 25px; /* Más separación entre elementos */
 }
 
 .registration-form label {
@@ -23,9 +41,9 @@
 .registration-form .form-control {
   border: 2px solid #ff6b6b; /* Borde rosa */
   border-radius: 5px;
-  padding: 10px;
+  padding: 20px;
   font-weight: bold; /* Texto en negrita */
-  background-color: #666; /* Fondo más oscuro */
+  background-color: #3a3737; /* Fondo más oscuro */
   color: #ff6b6b; /* Texto rosa */
   transition: color 0.3s; /* Transición de color al escribir */
 }
@@ -45,11 +63,27 @@
 
 .registration-form .btn-primary {
   background-color: #ffcc29; /* Fondo naranja */
-  border: none;
+  border:#333;
   font-weight: bold; /* Texto en negrita */
+  font-size: 23px;
 }
 
 .registration-form .btn-primary:hover {
   background-color: #ff6b6b; /* Fondo rosa al hacer hover */
+}
+
+/* Centra el formulario horizontalmente y cambia el tamaño del botón */
+.container {
+  text-align: center;
+}
+
+/* Estilo para el botón "ENVIAR" */
+button[type="submit"] {
+  font-size: 23px; /* Tamaño de fuente más grande */
+}
+
+/* Estilo para el carrusel (ajusta según sea necesario) */
+.carousel {
+  margin: 20px 0;
 }
 
