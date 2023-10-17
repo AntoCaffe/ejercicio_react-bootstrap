@@ -1,16 +1,18 @@
 /* RegistrationForm.css */
-.App {
-  background-color: rgb(240, 178, 240);
+body {
+  background-color: rgb(248, 236, 210);
 }
 .navbar {
   background-size: 200px;
-  background-color: #cac5c5;
+  background-color: #ff4800;
   font-style:oblique;
+  max-height: max-content;
 }
 .navbar-text{
-  color:#ec5252;
+  color:#ffffff;
   font: size 100px;;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
 }
 h1{
   font-size: 30px;

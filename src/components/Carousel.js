@@ -10,7 +10,7 @@ function Carousel() {
                         <img src="components/Image/th.jpeg" className="im1" alt="Slide 1" />
                     </div>
                     <div className="carousel-item">
-                        <img src="components/Images/62df1b5e5e0bf.webp" className="im2" alt="Slide 2" />
+                        <img src="components/Images/62df1b5e5e0bf.web" className="im2" alt="Slide 2" />
                     </div>
                     <div className="carousel-item">
                         <img src="components/Images/LG-ThinQ_Products1-1024x658-1.webp" className="im3" alt="Slide 3" />
